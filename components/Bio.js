@@ -4,6 +4,8 @@ import { rhythm } from 'utils/typography'
 import { prefixLink } from 'gatsby-helpers'
 import profilePic from './profile-pic.jpg'
 
+import Gravatar from 'react-gravatar'
+
 class Bio extends React.Component {
   render () {
     return (
@@ -12,6 +14,7 @@ class Bio extends React.Component {
           marginBottom: rhythm(2.5),
         }}
       >
+        <Gravatar email="ryan.graham@gmail.com" />
         <img
           src={prefixLink(profilePic)}
           alt={`author ${config.authorName}`}
