@@ -14,10 +14,8 @@ class Bio extends React.Component {
           marginBottom: rhythm(2.5),
         }}
       >
-        <Gravatar email="ryan.graham@gmail.com" />
-        <img
-          src={prefixLink(profilePic)}
-          alt={`author ${config.authorName}`}
+        <Gravatar
+          email="ryan.graham@gmail.com"
           style={{
             float: 'left',
             marginRight: rhythm(1/4),
