@@ -2,7 +2,6 @@ import React from 'react'
 import { config } from 'config'
 import { rhythm } from 'utils/typography'
 import { prefixLink } from 'gatsby-helpers'
-import profilePic from './profile-pic.jpg'
 
 import Gravatar from 'react-gravatar'
 
