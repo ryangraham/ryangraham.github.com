@@ -1,0 +1,4 @@
+git checkout source
+gatsby build
+git subtree split --prefix=public -b public
+git push origin public:master -f
